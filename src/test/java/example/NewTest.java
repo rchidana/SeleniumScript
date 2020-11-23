@@ -24,7 +24,7 @@ public class NewTest {
 			//capabilities.setCapability("marionette", true);
 			//driver = new FirefoxDriver();  
 			
-			System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\chromedriver.exe");  
+			System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");  
 			driver = new ChromeDriver();  
 		}		
 		@AfterTest
